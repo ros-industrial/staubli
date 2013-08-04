@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+<xacro:macro name="staubli_rx170" params="prefix">
+  <link name="${prefix}base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/visual/base_link.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/collision/base_link_collision.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="${prefix}joint_1" type="revolute">
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}shoulder_link"/>
+    <origin xyz="0 0 0.75" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" lower="-3.142" upper="3.142" velocity="2.705"/>
+  </joint>
+
+  <link name="${prefix}shoulder_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/visual/shoulder_link.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/collision/shoulder_link_collision.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="${prefix}joint_2" type="revolute">
+    <parent link="${prefix}shoulder_link"/>
+    <child link="${prefix}arm_link"/>
+    <origin xyz="0.1 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="1000" lower="-2.094" upper="2.094" velocity="2.269"/>
+  </joint>
+
+  <link name="${prefix}arm_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/visual/arm_link.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/collision/arm_link_collision.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="${prefix}joint_3" type="revolute">
+    <parent link="${prefix}arm_link"/>
+    <child link="${prefix}elbow_link"/>
+    <origin xyz="0 0.07 0.85" />
+    <axis xyz="0 -1 0" />
+    <limit effort="1000" lower="-2.269" upper="2.269" velocity="3.578"/>
+  </joint>
+
+  <link name="${prefix}elbow_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/visual/elbow_link.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/collision/elbow_link_collision.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="${prefix}joint_4" type="revolute">
+    <parent link="${prefix}elbow_link"/>
+    <child link="${prefix}forearm_link"/>
+    <origin xyz="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="1000" lower="-3.142" upper="3.142" velocity="4.136"/>
+  </joint>
+
+  <link name="${prefix}forearm_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/visual/forearm_link.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/collision/forearm_link_collision.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="${prefix}joint_5" type="revolute">
+    <parent link="${prefix}forearm_link"/>
+    <child link="${prefix}wrist_link"/>
+    <origin xyz="0 0 0.77" />
+    <axis xyz="0 1 0" />
+    <limit effort="1000" lower="-2.094" upper="2.094" velocity="2.635"/>
+  </joint>
+
+  <link name="${prefix}wrist_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/visual/wrist_link.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/collision/wrist_link_collision.dae" />
+      </geometry>
+    </collision>
+  </link>
+
+<!-- The link "grinder" represents a high speed machining spindle, and is not to be used for motion path planning. -->
+  <joint name="${prefix}joint_6" type="continuous">
+    <parent link="${prefix}wrist_link"/>
+    <child link="${prefix}grinder"/>
+    <origin xyz="0 0 0.19798" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="${prefix}grinder">
+    <visual>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/visual/grinder.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://staubli_rx170/meshes/collision/grinder_collision.dae" />
+      </geometry>
+    </collision>
+  </link>
+</xacro:macro>
+</robot>
