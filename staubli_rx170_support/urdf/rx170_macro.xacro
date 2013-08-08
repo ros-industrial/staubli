@@ -4,12 +4,12 @@
   <link name="${prefix}base_link">
     <visual>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/visual/base_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/visual/base_link.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/base_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/collision/base_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -25,12 +25,12 @@
   <link name="${prefix}shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/visual/shoulder_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/visual/shoulder_link.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/shoulder_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/collision/shoulder_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -46,12 +46,12 @@
   <link name="${prefix}arm_link">
     <visual>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/visual/arm_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/visual/arm_link.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/arm_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/collision/arm_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -67,12 +67,12 @@
   <link name="${prefix}elbow_link">
     <visual>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/visual/elbow_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/visual/elbow_link.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/elbow_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/collision/elbow_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -88,12 +88,12 @@
   <link name="${prefix}forearm_link">
     <visual>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/visual/forearm_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/visual/forearm_link.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/forearm_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/collision/forearm_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -109,12 +109,12 @@
   <link name="${prefix}wrist_link">
     <visual>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/visual/wrist_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/visual/wrist_link.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/wrist_link.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/collision/wrist_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -130,12 +130,12 @@
   <link name="${prefix}grinder">
     <visual>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/visual/grinder.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/visual/grinder.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/grinder.dae" />
+        <mesh filename="package://staubli_rx170_support/meshes/collision/grinder.dae" />
       </geometry>
     </collision>
   </link>
