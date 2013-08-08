@@ -9,7 +9,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/base_link_collision.dae" />
+        <mesh filename="package://staubli_rx170/meshes/collision/base_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -30,7 +30,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/shoulder_link_collision.dae" />
+        <mesh filename="package://staubli_rx170/meshes/collision/shoulder_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -51,7 +51,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/arm_link_collision.dae" />
+        <mesh filename="package://staubli_rx170/meshes/collision/arm_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -72,7 +72,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/elbow_link_collision.dae" />
+        <mesh filename="package://staubli_rx170/meshes/collision/elbow_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -93,7 +93,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/forearm_link_collision.dae" />
+        <mesh filename="package://staubli_rx170/meshes/collision/forearm_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -114,7 +114,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/wrist_link_collision.dae" />
+        <mesh filename="package://staubli_rx170/meshes/collision/wrist_link.dae" />
       </geometry>
     </collision>
   </link>
@@ -135,7 +135,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://staubli_rx170/meshes/collision/grinder_collision.dae" />
+        <mesh filename="package://staubli_rx170/meshes/collision/grinder.dae" />
       </geometry>
     </collision>
   </link>
