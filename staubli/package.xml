@@ -7,7 +7,7 @@
   <url type="website">http://ros.org/wiki/industrial_core</url>
   <author email="josiahwtaylor@gmail.com">Josiah Taylor</author>
 
-  <run_depend>rx170</run_depend>
+  <run_depend>staubli_rx170_support</run_depend>
   <export>
     <metapackage/>
   </export>
