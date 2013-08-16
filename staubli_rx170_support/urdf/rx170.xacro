@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+
+<robot name="staubli_rx170" xmlns:xacro="http://ros.org/wiki/xacro">
+	<include filename="$(find staubli_rx170_support)/urdf/rx170_macro.xacro"/>
+	<xacro:staubli_rx170 prefix=""/>
+</robot>

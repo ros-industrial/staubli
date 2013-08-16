@@ -1,0 +1,14 @@
+<package>
+  <name>staubli</name>
+  <version>1.0.0</version>
+  <description>The Staubli stack contains libraries, configuration files, and ROS nodes for controlling a Staubli robot from ROS-Industrial</description>
+  <maintainer email="josiahwtaylor@gmail.com">Josiah Taylor</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/industrial_core</url>
+  <author email="josiahwtaylor@gmail.com">Josiah Taylor</author>
+
+  <run_depend>staubli_rx170_support</run_depend>
+  <export>
+    <metapackage/>
+  </export>
+</package>
