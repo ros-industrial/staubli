@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+	<!-- RAL 1028 -->
+	<xacro:property name="colour_staubli_yellow" value="1.0 0.608 0 1" />
+
+	<!-- RAL 9016 -->
+	<xacro:property name="colour_staubli_white" value="0.945 0.941 0.918 1" />
+
+</robot>
