@@ -27,6 +27,11 @@
       in this package, be sure to check they are correct for the particular
       robot model and configuration you intend to use them with.
     </p>
+    <p><b>Contributors</b>:</p>
+    <p>
+      This support package has received contributions from: S. van Elderen
+      (RX160).
+    </p>
   </description>
   <author>G.A. vd. Hoorn (TU Delft Robotics Institute)</author>
   <maintainer email="g.a.vanderhoorn@tudelft.nl">G.A. vd. Hoorn (TU Delft Robotics Institute)</maintainer>
