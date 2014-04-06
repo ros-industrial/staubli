@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: staubli_rx160_support
+    relative_path: urdf/rx160.urdf
+  SRDF:
+    relative_path: config/staubli_rx160.srdf
+  CONFIG:
+    generated_timestamp: 1396427279
