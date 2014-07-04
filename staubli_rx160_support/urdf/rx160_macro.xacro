@@ -96,16 +96,14 @@
 		</link>
 		<link name="${prefix}link_6">
 			<visual>
-				<!-- TODO: fix origin of link_6 STL -->
-				<origin xyz="-0.0325 -0.0325 -0.015" rpy="0 0 0"/>
+				<origin xyz="0 0 0" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://staubli_rx160_support/meshes/rx160/visual/link_6.stl"/>
 				</geometry>
 				<xacro:material_staubli_yellow />
 			</visual>
 			<collision>
-				<!-- TODO: fix origin of link_6 STL -->
-				<origin xyz="-0.0325 -0.0325 -0.015" rpy="0 0 0"/>
+				<origin xyz="0 0 0" rpy="0 0 0"/>
 				<geometry>
 					<mesh filename="package://staubli_rx160_support/meshes/rx160/collision/link_6.stl"/>
 				</geometry>
