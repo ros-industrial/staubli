@@ -68,7 +68,7 @@
 			<visual>
 				<origin xyz="0 0 0" rpy="0 0 0"/>
 				<geometry>
-				    <mesh filename="package://staubli_rx160_support/meshes/rx160l/visual/link_4.stl"/>
+					<mesh filename="package://staubli_rx160_support/meshes/rx160l/visual/link_4.stl"/>
 				</geometry>
 				<xacro:material_staubli_yellow />
 			</visual>
