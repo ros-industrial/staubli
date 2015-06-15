@@ -7,12 +7,12 @@
     </p>
     <p>
       This package contains configuration data, 3D models and launch files
-      for Staubli RX160 manipulators. This currently includes the base model
-      only.
+      for Staubli RX160 manipulators. This includes the base model (RX160)
+      as well as the longer arm model (RX160L).
     </p>
     <p><b>Specifications</b>:</p>
     <ul>
-      <li>RX160 - Standard Arm - Nominal Speed</li>
+      <li>RX160 (Standard Arm) and RX160L (Long Arm) - Nominal Speed</li>
     </ul>
     <p>
       Joint limits and maximum joint velocities are based on the information in
@@ -29,9 +29,12 @@
     </p>
     <p><b>Contributors</b>:</p>
     <p>
-      This support package has received contributions from: S. van Elderen
-      (RX160).
+      This support package has received contributions from:
     </p>
+    <ul>
+      <li>S. van Elderen (RX160)</li>
+      <li>Murilo FM (RX160L)</li>
+    </ul>
   </description>
   <author>G.A. vd. Hoorn (TU Delft Robotics Institute)</author>
   <maintainer email="g.a.vanderhoorn@tudelft.nl">G.A. vd. Hoorn (TU Delft Robotics Institute)</maintainer>
