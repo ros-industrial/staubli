@@ -6,4 +6,12 @@
   <group ns="test_rx160__">
     <include file="$(find staubli_rx160_support)/launch/test_rx160.launch"/>
   </group>
+
+  <group ns="load_rx160l__">
+    <include file="$(find staubli_rx160_support)/launch/load_rx160l.launch"/>
+  </group>
+
+  <group ns="test_rx160l__">
+    <include file="$(find staubli_rx160_support)/launch/test_rx160l.launch"/>
+  </group>
 </launch>
