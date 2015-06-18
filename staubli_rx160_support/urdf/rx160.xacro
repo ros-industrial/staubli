@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 
 <robot name="staubli_rx160" xmlns:xacro="http://ros.org/wiki/xacro">
-	<xacro:include filename="$(find staubli_rx160_support)/urdf/rx160_macro.xacro"/>
-	<xacro:staubli_rx160 prefix=""/>
+  <xacro:include filename="$(find staubli_rx160_support)/urdf/rx160_macro.xacro"/>
+  <xacro:staubli_rx160 prefix=""/>
 </robot>
