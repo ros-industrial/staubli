@@ -17,22 +17,33 @@
       <li>RX160L - Long Arm - Nominal Speed</li>
     </ul>
     <p>
-      Joint limits and maximum joint velocities are based on the information in
-      the <em>Staubli Robotics - RX series 160 family - Instruction Manual</em>
-      version <em>D28086504A – 19/06/2012</em>. All urdfs are based on the
-      default motion and joint velocity limits, unless noted otherwise (ie:
-      no support for high speed joints, extended / limited motion ranges or
-      other options).
+      Joint limits, torque limits, and maximum joint velocities are based on the
+      information in the <em>Staubli Robotics - RX series 160 family -
+      Instruction Manual</em> version <em>D28086504A – 19/06/2012</em>.
+      All urdfs are based on the default motion and joint velocity limits,
+      unless noted otherwise (ie: no support for high speed joints, extended /
+      limited motion ranges or other options).
     </p>
     <p>
       Before using any of the configuration files and / or meshes included
       in this package, be sure to check they are correct for the particular
       robot model and configuration you intend to use them with.
     </p>
+    <p>
+      <b>NB (1)</b>: Masses, center of mass and moments of inertia were calculated
+      using Solidworks and the official Staubli CAD models, and may not be
+      accurate.
+    </p>
+    <p>
+      <b>NB (2)</b>: In order to allow maximum torque on axis 6, effort limit on
+      axis 5 was set to 29 Nm, rather than a feasible 58 Nm if torque on
+      axis 6 = 0 Nm (see superscripts (1) and (2) from table in Section 2.6.2
+      -Torque Limits- of the instruction manual for details).
+    </p>
     <p><b>Contributors</b>:</p>
     <p>
       This support package has received contributions from: S. van Elderen
-      (RX160) and Murilo FM (RX160L).
+      (RX160) and Murilo Martins (Ocado Technology) (RX160/RX160L).
     </p>
   </description>
   <author>G.A. vd. Hoorn (TU Delft Robotics Institute)</author>

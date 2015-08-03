@@ -1,10 +1,20 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- RAL 1018 -->
+  <xacro:property name="colour_staubli_ral_zinc_yellow"    value="0.973 0.953 0.208 1.0" />
+
   <!-- RAL 1028 -->
-  <xacro:property name="colour_staubli_yellow" value="1.0 0.608 0 1" />
+  <xacro:property name="colour_staubli_ral_melon_yellow"   value="1.0 0.608 0.0 1.0" />
+
+  <!-- RAL 7043 -->
+  <xacro:property name="colour_staubli_ral_traffic_grey_b" value="0.306 0.329 0.322 1.0" />
 
   <!-- RAL 9016 -->
-  <xacro:property name="colour_staubli_white" value="0.945 0.941 0.918 1" />
+  <xacro:property name="colour_staubli_ral_traffic_white"  value="0.965 0.965 0.965 1.0" />
+
+  <!-- old colour definitions, for bw-compatibility. These are DEPRECATED. -->
+  <xacro:property name="colour_staubli_yellow"             value="${colour_staubli_ral_melon_yellow}" />
+  <xacro:property name="colour_staubli_white"              value="${colour_staubli_ral_traffic_white}" />
 
 </robot>
