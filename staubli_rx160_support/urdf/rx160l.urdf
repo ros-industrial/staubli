@@ -16,7 +16,7 @@
         <mesh filename="package://staubli_rx160_support/meshes/rx160/visual/base_link.stl"/>
       </geometry>
       <material name="">
-        <color rgba="1.0 0.608 0.0 1.0"/>
+        <color rgba="1.0 0.607843137255 0.0 1.0"/>
       </material>
     </visual>
     <collision>
@@ -38,7 +38,7 @@
         <mesh filename="package://staubli_rx160_support/meshes/rx160/visual/link_1.stl"/>
       </geometry>
       <material name="">
-        <color rgba="1.0 0.608 0.0 1.0"/>
+        <color rgba="1.0 0.607843137255 0.0 1.0"/>
       </material>
     </visual>
     <collision>
@@ -60,7 +60,7 @@
         <mesh filename="package://staubli_rx160_support/meshes/rx160/visual/link_2.stl"/>
       </geometry>
       <material name="">
-        <color rgba="1.0 0.608 0.0 1.0"/>
+        <color rgba="1.0 0.607843137255 0.0 1.0"/>
       </material>
     </visual>
     <collision>
@@ -82,7 +82,7 @@
         <mesh filename="package://staubli_rx160_support/meshes/rx160/visual/link_3.stl"/>
       </geometry>
       <material name="">
-        <color rgba="1.0 0.608 0.0 1.0"/>
+        <color rgba="1.0 0.607843137255 0.0 1.0"/>
       </material>
     </visual>
     <collision>
@@ -104,7 +104,7 @@
         <mesh filename="package://staubli_rx160_support/meshes/rx160l/visual/link_4.stl"/>
       </geometry>
       <material name="">
-        <color rgba="1.0 0.608 0.0 1.0"/>
+        <color rgba="1.0 0.607843137255 0.0 1.0"/>
       </material>
     </visual>
     <collision>
@@ -126,7 +126,7 @@
         <mesh filename="package://staubli_rx160_support/meshes/rx160/visual/link_5.stl"/>
       </geometry>
       <material name="">
-        <color rgba="1.0 0.608 0.0 1.0"/>
+        <color rgba="0.529411764706 0.521568627451 0.505882352941 1.0"/>
       </material>
     </visual>
     <collision>
@@ -148,7 +148,7 @@
         <mesh filename="package://staubli_rx160_support/meshes/rx160/visual/link_6.stl"/>
       </geometry>
       <material name="">
-        <color rgba="0.306 0.329 0.322 1.0"/>
+        <color rgba="0.529411764706 0.521568627451 0.505882352941 1.0"/>
       </material>
     </visual>
     <collision>

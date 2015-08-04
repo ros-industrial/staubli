@@ -27,6 +27,4 @@
   <!-- old colour definitions, for bw-compatibility. These are DEPRECATED. -->
   <xacro:property name="colour_staubli_yellow"             value="${colour_staubli_ral_melon_yellow}" />
   <xacro:property name="colour_staubli_white"              value="${colour_staubli_ral_traffic_white}" />
-  <xacro:property name="colour_staubli_ral_zinc_yellow"    value="0.973 0.953 0.208 1.0" />
-  <xacro:property name="colour_staubli_ral_traffic_grey_b" value="0.306 0.329 0.322 1.0" />
 </robot>

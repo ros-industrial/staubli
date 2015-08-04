@@ -50,15 +50,4 @@
       <color rgba="${colour_staubli_white}"/>
     </material>
   </xacro:macro>
-  <xacro:macro name="material_staubli_ral_zinc_yellow">
-    <material name="">
-      <color rgba="${colour_staubli_ral_zinc_yellow}"/>
-    </material>
-  </xacro:macro>
-  <xacro:macro name="material_staubli_ral_traffic_grey_b">
-    <material name="">
-      <color rgba="${colour_staubli_ral_traffic_grey_b}"/>
-    </material>
-  </xacro:macro>
-
 </robot>

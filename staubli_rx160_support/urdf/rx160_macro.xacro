@@ -120,7 +120,7 @@
         <geometry>
           <mesh filename="package://staubli_rx160_support/meshes/rx160/visual/link_5.stl"/>
         </geometry>
-        <xacro:material_staubli_ral_melon_yellow />
+        <xacro:material_staubli_ral_grey_aluminium />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -142,7 +142,7 @@
         <geometry>
           <mesh filename="package://staubli_rx160_support/meshes/rx160/visual/link_6.stl"/>
         </geometry>
-        <xacro:material_staubli_ral_traffic_grey_b />
+        <xacro:material_staubli_ral_grey_aluminium />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
