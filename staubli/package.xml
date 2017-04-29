@@ -17,6 +17,7 @@
   <run_depend>staubli_rx160_moveit_config</run_depend>
   <run_depend>staubli_rx160_moveit_plugins</run_depend>
   <run_depend>staubli_rx160_support</run_depend>
+  <run_depend>staubli_tx90_support</run_depend>
 
   <export>
     <metapackage/>
