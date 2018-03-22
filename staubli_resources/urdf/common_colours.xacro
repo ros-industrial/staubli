@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://ros.org/wiki/xacro">
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
   <!-- colours based on RAL values supplied by Staubli -->
   <!-- all RAL colours converted using http://www.visual-graphics.de/en/customer-care/ral-colours -->
 
