@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package>
+<package ="2">
   <name>staubli</name>
   <version>0.1.0</version>
   <description>ROS-Industrial support for Staubli manipulators (metapackage).</description>
@@ -13,10 +13,10 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>staubli_resources</run_depend>
-  <run_depend>staubli_rx160_moveit_config</run_depend>
-  <run_depend>staubli_rx160_moveit_plugins</run_depend>
-  <run_depend>staubli_rx160_support</run_depend>
+  <exec_depend>staubli_resources</exec_depend>
+  <exec_depend>staubli_rx160_moveit_config</exec_depend>
+  <exec_depend>staubli_rx160_moveit_plugins</exec_depend>
+  <exec_depend>staubli_rx160_support</exec_depend>
 
   <export>
     <metapackage/>
