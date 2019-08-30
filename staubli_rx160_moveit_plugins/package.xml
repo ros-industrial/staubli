@@ -27,6 +27,7 @@
   <url type="repository">https://github.com/ros-industrial/staubli</url>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <depend>liblapack-dev</depend>
   <depend>moveit_core</depend>
   <depend>pluginlib</depend>
   <depend>roscpp</depend>
