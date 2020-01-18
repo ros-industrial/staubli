@@ -22,9 +22,4 @@
 
   <!-- RAL 9016 - Traffic white - CR (smooth) -->
   <xacro:property name="colour_staubli_ral_traffic_white"  value="${241/255} ${240/255} ${234/255} 1.0" />
-
-
-  <!-- old colour definitions, for bw-compatibility. These are DEPRECATED. -->
-  <xacro:property name="colour_staubli_yellow"             value="${colour_staubli_ral_melon_yellow}" />
-  <xacro:property name="colour_staubli_white"              value="${colour_staubli_ral_traffic_white}" />
 </robot>
