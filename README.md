@@ -1,6 +1,7 @@
 # Staubli
 
-[![Build Status: Travis CI](https://travis-ci.com/ros-industrial/staubli.svg?branch=indigo-devel)](https://travis-ci.com/ros-industrial/staubli)
+[![Build Status: Ubuntu Bionic (Actions)](https://github.com/ros-industrial/staubli/workflows/CI%20-%20Ubuntu%20Bionic/badge.svg?branch=indigo-devel)](https://github.com/ros-industrial/staubli/actions?query=workflow%3A%22CI+-+Ubuntu+Bionic%22)
+[![Build Status: Ubuntu Focal (Actions)](https://github.com/ros-industrial/staubli/workflows/CI%20-%20Ubuntu%20Focal/badge.svg?branch=indigo-devel)](https://github.com/ros-industrial/staubli/actions?query=workflow%3A%22CI+-+Ubuntu+Focal%22)
 [![Github Issues](https://img.shields.io/github/issues/ros-industrial/staubli.svg)](http://github.com/ros-industrial/staubli/issues)
 
 [![license - apache 2.0](https://img.shields.io/:license-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
